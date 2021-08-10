@@ -1,0 +1,115 @@
+#wrap {width:100%; max-width:1280px;
+  height:auto; margin:auto; padding-top:20px; box-sizing: border-box;
+}
+  
+/* #headBox ============================ */
+
+#headBox { 
+width:1280px; height:110px;
+margin:auto;  margin-bottom:10px;
+background-color: #fff; }
+
+.container {width:70%; height:100%;
+margin:auto;  }
+
+h1 { float:left;
+width:130px; height:90px; margin-right:40px;
+background-image:url("../../img/cl-logo.png");
+background-repeat: no-repeat;
+background-size:cover; }
+h1 a {display: block; width:100%; height:100%;}
+.unb {width:65%; height:50px; margin: auto;}
+.searchArea {
+float:left;
+width:70%; height: 100%; 
+margin:auto; padding:10px; box-sizing: border-box;
+/* background-color:#adf; */
+}
+form{ width:100%; height:100%; 
+margin:0; padding:0;
+border:1px solid #add;
+border-radius: 10px; }
+
+.icon_box {float:left; width:auto; height:auto;
+margin-right:5px; padding:5px;}
+
+input {padding:5px;}
+.unbArea {
+float:left; margin-left:10px;
+width:25%; height:100%;
+}
+
+.unbArea li { float: left; width:20%; height:70%; 
+margin-left:5%; margin-top:15px; }
+.unbArea li a {display: block; width:100%; height:100%;}
+
+
+.gnb {width:70%; height:50px;
+margin:auto;}
+
+.gnb ul { width:90%; height:100%; margin:auto;
+padding:10px; box-sizing: border-box;}
+
+.gnb ul li {float:left; width:170px;  height:100%; margin-left:10px;}
+.gnb ul li a{ display: block; width:100%; height:100%;
+font-size:24px;text-transform: uppercase;  } 
+
+
+/* #viewBox ============================= */
+#viewBox {position: relative; 
+width:100%; height:500px; margin-top:50px;
+/* background-color:#fba; */
+}
+.view_area {
+position:absolute; bottom:0; left:0;right:0;
+width:100%;height:100%;
+padding-top:20px; box-sizing: border-box;
+/*background-color:#faf;
+background-image: url("../../img/pj_001/Group-1.png");
+margin:auto;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size:100%;} */
+}
+.view_letter {
+/* display:none; */
+/* opacity:0; */
+position:absolute;
+top:0; left:0; right:0; margin:auto;
+width:920px; height:400px;
+background-image:url("../../img/pj_001/new_2020_0515.png");
+background-repeat: no-repeat;
+background-position:50% 50%;
+background-size:100%;
+}
+
+/* #classic_list ======================*/
+
+#classic_list {
+  width:100%; height:auto; 
+}
+
+
+#classic_list ul {width:100%; height:100%;}
+
+#classic_list ul li {width:70%; height:350px; 
+margin:auto;  margin-bottom:30px; padding:10px; box-sizing: border-box; 
+background-color:#fda;}
+
+.img_box {float:left; width:50%; height:100%; 
+background-color:#fff;}
+
+#classic_list ul li dl {float:left; width:40%;height:100%;
+margin-left:5%; padding-top:30px; box-sizing: border-box;}
+#classic_list ul li dl dt {width:100%; height:30%;
+margin-bottom:15px; font-size: 30px; font-weight: 700;
+text-transform: capitalize;}
+#classic_list ul li dl dd {width:100%; height:15%;
+margin-bottom:5px}
+
+
+/* #footBox ==================== */
+
+#footBox {width:100%; max-width:1280px; height:300px;
+  margin:auto; 
+  background-color:#ddd;}
