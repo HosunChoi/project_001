@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+:root {
+  /* ---  color ---*/
+  --color-gray2:#ddd;
+  --color-gray3:#aaa;
+  --color-gray4:#666;
+  --color-gray5:#444;
+  --color-black:#222;
+  --color-white:#fff;
+  --color-orange1: #FBA164;
+  --color-orange2:#FF5965;
+  --color-pink1:#FBADC1;
+  --color-pink2:#FB829D;
+  --color-sand:#F7E8DD;
+  --color-mint1:#01D8D7;
+  --color-mint2:#4FCBBB;
+  --color-blue1:#2494CC;
+  --color-blue2:#87A8B7;
+  --color-beige:#CEB4A7;
+  /* --- font-size ---*/
+  --font-size1 : 16px;
+  --font-size2 : 24px;
+  --font-size3 : 32px;
+  --font-size4 : 42px;
+  --font-size5 : 50px;
+  --font-size6 : 60px;
+}
+
+/* 
+rgb color 
+orange1: #FBA164 > 242,156,99
+pink1:#FBADC1 > 243,170,188
+pink2:#FB829D > 237,126,150
+sand:#F7E8DD > 246,231,220
+
+
+*/

@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 #wrap {width:100%; max-width:1280px;
   height:auto; margin:auto; padding-top:20px; box-sizing: border-box;
 }
@@ -27,7 +29,7 @@ margin:auto; padding:10px; box-sizing: border-box;
 }
 form{ width:100%; height:100%; 
 margin:0; padding:0;
-border:1px solid #add;
+border:1px solid var(--color-blue1);
 border-radius: 10px; }
 
 .icon_box {float:left; width:auto; height:auto;
@@ -52,7 +54,8 @@ padding:10px; box-sizing: border-box;}
 
 .gnb ul li {float:left; width:170px;  height:100%; margin-left:10px;}
 .gnb ul li a{ display: block; width:100%; height:100%;
-font-size:24px;text-transform: uppercase;  } 
+font-size:20px; font-weight: 600;
+text-transform: uppercase;} 
 
 
 /* #viewBox ============================= */
@@ -78,11 +81,12 @@ width:65px; height:25px;}
 .view_area {width:100%; height:100%;
 overflow:hidden;}
 
-.view_area ul {width:200%; height:100%; background-color:#fdd;}
+.view_area ul {width:200%; height:100%;}
 
 .view_area ul li {float:left; width:calc(100% / 2); height:100%;
+  background-color:var(--color-pink1);
 padding:10px; box-sizing: border-box; }
-
+.view_area ul li:nth-child(2) {background-color: var(--color-pink2);}
 #view01{
   width:calc(100% / 2);height:100%; }
 #view02 {width:calc(100% / 2); height:100%;}
@@ -102,12 +106,12 @@ background-size: 100%;}
   
 
 .view_narr {float:left; 
-width:250px; height:300px; margin:130px 20px; }
+width:250px; height:380px; margin:130px 20px; }
 
-.view_narr dt {width:100%; height:auto; font-size:30px;
+.view_narr dt {width:100%; height:auto; font-size:32px;
 text-transform: capitalize; font-weight: 700; margin-bottom:10px;}
-.view_narr dd {width:100%; height:auto; line-height: 1.3;
-font-size:20px;}
+.view_narr dd {width:100%; height:auto; line-height: 1.8;
+font-size:18px;}
 
 /* #conBox=============================  */
 
@@ -168,13 +172,13 @@ width:80%; height:30px; }
 
 .rec_con {width:98%;height:100%;}
 .rec_con li {float:left; width:30%; height:100%; margin-right:20px;
-background-color:#daf;}
+background-color:var(--color-mint1);}
 .rec_con li:last-child {margin-right:0;}
 
 .rec_con li a {display: block; width: 100%; height:100%; 
 padding:15px; box-sizing: border-box;}
 
-.rec_wrap {width:100%; height:100%; background-color:#daa;}
+.rec_wrap {width:100%; height:100%; background-color:var(--color-sand);}
 
 .rec_wrap div {width:100%; height:60%;
 margin-bottom:10px;  
@@ -210,7 +214,7 @@ text-transform: capitalize;}
 
 .facebookArea {float:left; width:32.5%; height:400px;
 margin-right:10px;
-background-color:#fad;}
+background-color:var(--color-orange1);}
 .facebook_Con {width:100%;height:90%;
 padding:10px; box-sizing:border-box;}
 .facebook_Con li {float:left;width:45%; height:45%; 
@@ -228,7 +232,7 @@ background-size: cover;}
 
 .twitterArea {float:left; width:32.5%; height:400px;
 margin-right:10px;
-background-color:#daf;}
+background-color:var(--color-pink2);}
 .twitter_Con {width:100%;height:90%;
 padding:10px; box-sizing:border-box;}
 .twitter_Con li {float:left;width:45%; height:45%; 
@@ -244,7 +248,7 @@ background-size: cover;}
 background-size: cover;}
 
 .instagramArea {float:left; width:32.5%; height:400px;
-background-color:#fad;}
+background-color:var(--color-orange1);}
 .instagram_Con {width:100%;height:90%;
 padding:10px; box-sizing:border-box;}
 .instagram_Con li {float:left;width:45%; height:45%; 
@@ -261,7 +265,23 @@ background-size: cover;}
 /* #footBox ==================== */
 
 #footBox {width:100%; max-width:1280px; height:300px;
-  margin:auto; 
-  background-color:#ddd;}
+  margin:auto; }
 
-  
+.site_info {width:90%; height:100%;  margin:auto; }
+#footBox h2 {width:170px; height:30px; margin:auto;}
+#footBox h2 a {
+display:block; width:100%;height:100%;
+background-image: url("../../img/kraft_logo.png");
+background-repeat: no-repeat;
+background-size: cover;}
+
+address{width:100%;height:100px;
+padding:50px; box-sizing: border-box;}
+address ul {width:100%;height:100%;}
+address li {float:left; width:auto; height:auto; 
+margin-right:15px;}
+address li:last-child {margin-right:0; 
+font-weight: 700;}
+
+#footBox p {width:470px; height:auto; 
+margin:auto;margin-top:100px;}

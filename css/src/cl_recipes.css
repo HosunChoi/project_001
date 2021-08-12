@@ -82,8 +82,98 @@ background-position:50% 50%;
 background-size:100%;
 }
 
+/* ============================================================= */
+
+#recipes_list {width:100%; height:auto; 
+padding:10%; box-sizing: border-box;}
+
+.top_list {width:90%; height:67px; 
+margin:auto; margin-bottom:30px;
+/* background-color: var(--color-pink1); */
+}
+
+.top_list ul {width:100%; height:100%; margin:auto; }
+.top_list ul li {float:left; width: 20%; height:100%; 
+  margin-right:5%; border:1px solid var(--color-mint2);}
+.top_list ul li:first-child {margin-left:20px;}  
+.top_list ul li:last-child {margin-right:0;}
+.top_list ul li a {display: block; width:100%; height:100%;
+padding:20px 22px; box-sizing: border-box;
+font-size: 24px; font-weight: 700; text-transform: uppercase;
+text-align: center;}
+.top_list ul li a:hover,.top_list ul li a:focus {background-color: var(--color-pink2);}
+
+/* =============================================================== */
+
+.card_list {width:100%; height:auto; 
+overflow: hidden;}
+
+.card_area {width:400%; height:auto; }
+
+#lemonade {float:left; width:calc(100% / 4); height:auto;}
+#lemonade li {width:100%; height:500px; 
+margin-bottom: 30px; padding:30px; box-sizing: border-box;
+background-color: var(--color-orange1);}
+
+#smoothie {float:left;width:calc(100% / 4); height:auto;}
+#smoothie li {width:100%; height:500px; 
+  margin-bottom: 30px; padding:30px; box-sizing: border-box;
+  background-color: var(--color-sand);}
+ 
+
+
+.recipes_01 {width:100%; height:100%;  }
+
+.recipes_img {float:right;width:50%; height:100%; background-color: #fff;}
+.card_narr {width:50%; height:100%; padding:30px; box-sizing: border-box;}
+.card_narr dt {width: 100%; height:10%;margin-bottom:20px; font-size:24px; 
+text-transform: capitalize;font-weight: 700; }
+.card_narr dd {width:100%; height:auto; line-height: 2.2;}
+.card_narr dd strong {font-size:20px;}
+
+/* =============================================*/
+
+
+
+
+  
+#sangria {float:left;width:calc(100% / 4); height:700px; background-color:#fad;}
+#other {float:left;width:calc(100% / 4); height:700px; background-color:#dff;}
+
+.rc_img01 {background-image:url("../../img/tea/pexels-designbyja-2109099.jpg");
+background-size: cover;}
+.rc_img02 {background-image:url("../../img/tea/melissa-walker-horn-yqnFLSes5Yk-unsplash.jpg");
+background-size: cover;}
+.rc_img03 {background-image:url("../../img/tea/pesce-huang-sSLqRCTJBvU-unsplash.jpg");
+background-size: cover;}
+.rc_img04 {background-image:url("../../img/tea/christina-rumpf-UrXlE1GZ5PQ-unsplash.jpg");
+  background-size: cover; background-position-y: 80%;}
+.rc_img05 {background-image:url("../../img/tea/magalie-de-preux-ZQAOpiec_JA-unsplash.jpg");
+  background-size: cover;}
+.rc_img06 {background-image:url("../../img/tea/pichara-bann-GPcoF-s6_DI-unsplash.jpg");
+  background-size: cover;}
+.rc_img07 {background-image:url("../../img/tea/jugoslocos-IrXyHoUrjog-unsplash.jpg");
+  background-size: cover; background-position-x: 50%;}
+
 /* #footBox ==================== */
 
 #footBox {width:100%; max-width:1280px; height:300px;
-  margin:auto; 
-  background-color:#ddd;}
+  margin:auto; margin-left:60px; }
+.site_info {width:90%; height:100%;  margin:auto; }
+#footBox h2 {width:170px; height:30px; margin:auto;}
+#footBox h2 a {
+display:block; width:100%;height:100%;
+background-image: url("../../img/kraft_logo.png");
+background-repeat: no-repeat;
+background-size: cover;}
+
+address{width:100%;height:100px;
+padding:50px; box-sizing: border-box;}
+address ul {width:100%;height:100%;}
+address li {float:left; width:auto; height:auto; 
+margin-right:15px;}
+address li:last-child {margin-right:0; 
+font-weight: 700;}
+
+#footBox p {width:470px; height:auto; 
+margin:auto;margin-top:100px;}

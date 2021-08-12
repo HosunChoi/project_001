@@ -83,45 +83,45 @@ background-position:50% 50%;
 background-size:100%;
 }
 
-/* #classic_list ======================*/
+/* #tea_list ======================*/
 
-#classic_list {
+#tea_list {
   width:100%; height:auto; 
 }
 
 
-#classic_list ul {width:100%; height:100%;}
+#tea_list ul {width:100%; height:100%;}
 
-#classic_list ul li {width:70%; height:350px; 
+#tea_list ul li {width:70%; height:350px; 
 margin:auto;  margin-bottom:30px; padding:10px; box-sizing: border-box; 
-background-color:var(--color-orange1);}
+background-color:var(--color-pink1);}
 
 .img_box {float:left; width:50%; height:100%; 
 background-color:#fff;}
 
-#classic_list ul li dl {float:left; width:40%;height:100%;
+#tea_list ul li dl {float:left; width:40%;height:100%;
 margin-left:5%; padding-top:15px; box-sizing: border-box;}
-#classic_list ul li dl dt {width:100%; height:20%;
+#tea_list ul li dl dt {width:100%; height:15%;
 margin-bottom:10px; font-size: 30px; font-weight: 700;
 text-transform: capitalize;}
-#classic_list ul li dl dd {width:100%; height:15%;
+#tea_list ul li dl dd {width:100%; height:15%;
 line-height: 1.5;
 }
 
-.classic_img01 {background-image:url("../../img/cl/1510609234.jpg");
+.tea_img01 {background-image:url("../../img/cl/1510755781.jpg");
 background-repeat: no-repeat; background-size:80%; 
 background-position: 50% 50%;}
-.classic_img02 {background-image:url("../../img/cl/1510567920.jpg");
+.tea_img02 {background-image:url("../../img/cl/1510609334.jpg");
   background-repeat: no-repeat; background-size:80%; 
   background-position: 50% 50%;}
-.classic_img03 {background-image:url("../../img/cl/1510674323.jpg");
+.tea_img03 {background-image:url("../../img/cl/1506222225.jpg");
 background-repeat: no-repeat; background-size:80%; 
 background-position: 50% 50%;}
-.classic_img04 {background-image:url("../../img/cl/cl_002.png");
-  background-repeat: no-repeat; background-size:35%; 
+.tea_img04 {background-image:url("../../img/cl/1510568020.jpg");
+  background-repeat: no-repeat; background-size:80%; 
   background-position: 50% 50%;}
-.classic_img05 {background-image:url("../../img/cl/cl_009.png");
-  background-repeat: no-repeat; background-size:35%; 
+.tea_img05 {background-image:url("../../img/cl/1510674423.jpg");
+  background-repeat: no-repeat; background-size:80%; 
   background-position: 50% 50%;}  
 /* #footBox ==================== */
 

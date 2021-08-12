@@ -94,7 +94,7 @@ background-size: cover; background-position:50% 60%;}
 
 .other {width:100%;height:100%;
 padding:2rem; box-sizing: border-box;
-background-color:rgba(255,200,250,0.5);}
+background-color:rgba(243,170,188,0.6);}
 .other span {display:block;
 width:100%; height:100%; 
 font-size:35px; text-align: center;
@@ -106,24 +106,44 @@ text-transform: uppercase; }
 .tea {float:left;  width:25%;height:500px;
 background-image:url("../../img/SNS/27.jpg");
 background-size: cover; background-position:40% 50%;}
-.tea:hover > .other,
-.tea:focus > .other {
+.tea a {display: block; width:100%; height:100%;}
+.tea a:hover > .other,
+.tea a:focus > .other {
   display:block;}
 
 .pure {float:left;  width:25%; height:500px;
 background-image:url("../../img/tea/pexels-cottonbro-4715343.jpg");
 background-size: cover; background-position:30% 50%;}
-.pure:hover > .other,
-.pure:focus > .other {
+.pure a {display: block; width:100%; height:100%;}
+.pure a:hover > .other,
+.pure a:focus > .other {
   display:block;}
 .caffeine {float:left; width:25%;height:500px;
 background-image:url("../../img/SNS/24.jpg");
 background-size: cover; background-position:40% 50%;}
-.caffeine:hover > .other,
-.caffeine:focus > .other {
+.caffeine a {display: block; width:100%; height:100%;}
+.caffeine a:hover > .other,
+.caffeine a:focus > .other {
   display:block;}
 /* #footBox ==================== */
 
 #footBox {width:100%; max-width:1280px; height:300px;
-  margin:auto; 
-  background-color:#ddd;}
+  margin:auto; margin-left:60px; }
+.site_info {width:90%; height:100%;  margin:auto; }
+#footBox h2 {width:170px; height:30px; margin:auto;}
+#footBox h2 a {
+display:block; width:100%;height:100%;
+background-image: url("../../img/kraft_logo.png");
+background-repeat: no-repeat;
+background-size: cover;}
+
+address{width:100%;height:100px;
+padding:50px; box-sizing: border-box;}
+address ul {width:100%;height:100%;}
+address li {float:left; width:auto; height:auto; 
+margin-right:15px;}
+address li:last-child {margin-right:0; 
+font-weight: 700;}
+
+#footBox p {width:470px; height:auto; 
+margin:auto;margin-top:100px;}
